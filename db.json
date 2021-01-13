@@ -1,103 +1,81 @@
 {
-  "participants": {
-  users: [
-    {
-      user: {
-        firstName: 'Jhon',
-        lastName: 'Doe',
-        avatar: 'https://avatar.oxro.io/avatar.svg?name=Jhon',
-        interests: [
-          { key: '1', name: 'Boat' },
-          { key: '2', name: 'Race' },
-          { key: '3', name: 'Oxford & Cambridge' },
-          { key: '4', name: 'Grand National Course' },
-        ],
-        email: 'jhondon@gmail.com',
+  "participants":{
+    "users":[
+      {
+        "user":{
+          "firstName":"Jhon",
+          "lastName":"Doe",
+          "avatar":"https://avatar.oxro.io/avatar.svg?name=Jhon",
+          "interests":[
+            {"key":"1","name":"Boat"},
+            {"key":"2","name":"Race"},
+            {"key":"3","name":"Oxford & Cambridge"},
+            {"key":"4","name":"Grand National Course"}
+          ],
+          "email":"jhondon@gmail.com"
+        },
+        "meeting":{"date":{},"place":"Lobby"}
       },
-      meeting: {
-        date: new Date(2020, 8, 11),
-        place: 'Lobby',
+      {
+        "user":{
+          "firstName":"Bob",
+          "lastName":"Halmor",
+          "avatar":"https://avatar.oxro.io/avatar.svg?name=Bob",
+          "interests":[
+            {"key":"2","name":"Nature"},
+            {"key":"4","name":"Grand National Course"}
+          ],
+          "email":"bob@gmail.com"
+        },
+        "meeting":{"date":{},"place":"Lobby 2"}
       },
-    },
-    {
-      user: {
-        firstName: 'Bob',
-        lastName: 'Halmor',
-        avatar: 'https://avatar.oxro.io/avatar.svg?name=Bob',
-        interests: [
-          { key: '2', name: 'Nature' },
-          { key: '4', name: 'Grand National Course' },
-        ],
-        email: 'bob@gmail.com',
+      {
+        "user":{
+          "firstName":"Tom",
+          "lastName":"Sammino",
+          "avatar":"https://avatar.oxro.io/avatar.svg?name=Tom",
+          "interests":[
+            {"key":"2","name":"Nature"},
+            {"key":"4","name":"Grand National Course"},
+            {"key":"4","name":"Photo"}
+          ],
+          "email":"tom@gmail.com"
+        },
+        "meeting":{"date":{},"place":"Lobby"}
       },
-      meeting: {
-        date: new Date(2020, 8, 10),
-        place: 'Lobby 2',
+      {
+        "user":{
+          "firstName":"Bob",
+          "lastName":"Halmor",
+          "avatar":"https://avatar.oxro.io/avatar.svg?name=Ha",
+          "interests":[
+            {"key":"2","name":"Nature"},
+            {"key":"4","name":"Grand National Course"}
+          ],
+          "email":"bob@gmail.com"
+        },
+        "meeting":{"date":{},"place":"Lobby 2"}
       },
-    },
-    {
-      user: {
-        firstName: 'Tom',
-        lastName: 'Sammino',
-        avatar: 'https://avatar.oxro.io/avatar.svg?name=Tom',
-        interests: [
-          { key: '2', name: 'Nature' },
-          { key: '4', name: 'Grand National Course' },
-          { key: '4', name: 'Photo' },
-        ],
-        email: 'tom@gmail.com',
+      {
+        "user":{
+          "firstName":"Vob",
+          "lastName":"Calmor",
+          "avatar":"https://avatar.oxro.io/avatar.svg?name=Vo",
+          "interests":[{"key":"2","name":"Nature"}],
+          "email":"bob@gmail.com"
+        },
+        "meeting":{"date":{},"place":"Lobby 2"}
       },
-      meeting: {
-        date: new Date(2020, 8, 10),
-        place: 'Lobby',
-      },
-    },
-    {
-      user: {
-        firstName: 'Bob',
-        lastName: 'Halmor',
-        avatar: 'https://avatar.oxro.io/avatar.svg?name=Ha',
-        interests: [
-          { key: '2', name: 'Nature' },
-          { key: '4', name: 'Grand National Course' },
-        ],
-        email: 'bob@gmail.com',
-      },
-      meeting: {
-        date: new Date(2020, 8, 10),
-        place: 'Lobby 2',
-      },
-    },
-    {
-      user: {
-        firstName: 'Vob',
-        lastName: 'Calmor',
-        avatar: 'https://avatar.oxro.io/avatar.svg?name=Vo',
-        interests: [
-          { key: '2', name: 'Nature' },
-        ],
-        email: 'bob@gmail.com',
-      },
-      meeting: {
-        date: new Date(2020, 8, 10),
-        place: 'Lobby 2',
-      },
-    },
-    {
-      user: {
-        firstName: 'Koob',
-        lastName: 'To',
-        avatar: 'https://avatar.oxro.io/avatar.svg?name=Koob',
-        interests: [
-          { key: '4', name: 'Grand National Course' },
-        ],
-        email: 'bob@gmail.com',
-      },
-      meeting: {
-        date: new Date(2020, 8, 10),
-        place: 'Lobby 2',
-      },
-    },
-  ],
-}
+      {
+        "user":{
+          "firstName":"Koob",
+          "lastName":"To",
+          "avatar":"https://avatar.oxro.io/avatar.svg?name=Koob",
+          "interests":[{"key":"4","name":"Grand National Course"}],
+          "email":"bob@gmail.com"
+        },
+        "meeting":{"date":{},"place":"Lobby 2"}
+      }
+    ]
+  }
 }
