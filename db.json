@@ -57,15 +57,5 @@
       "email":"bob@gmail.com"
     },
     "meeting":{"date":{},"place":"Lobby 2"}
-  },
-  {
-    "user":{
-      "firstName":"Koob",
-      "lastName":"To",
-      "avatar":"https://avatar.oxro.io/avatar.svg?name=Koob",
-      "interests":[{"key":"4","name":"Grand National Course"}],
-      "email":"bob@gmail.com"
-    },
-    "meeting":{"date":{},"place":"Lobby 2"}
   }
 ]
