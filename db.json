@@ -1,73 +1,146 @@
 {
-  "participants":[
+  "participants": [
     {
-      "user":{
-        "firstName":"Jhon",
-        "lastName":"Doe",
-        "avatar":"https://avatar.oxro.io/avatar.svg?name=Jhon",
-        "interests":[
-          {"key":"1","name":"Boat"},
-          {"key":"2","name":"Race"},
-          {"key":"3","name":"Oxford & Cambridge"},
-          {"key":"4","name":"Grand National Course"}
+      "user": {
+        "id": "1",
+        "first_name": "Jhon",
+        "last_name": "Doe",
+        "avatar": "https://avatar.oxro.io/avatar.svg?name=Jhon",
+        "tags": [
+          {
+            "key": "1",
+            "name": "Boat"
+          },
+          {
+            "key": "2",
+            "name": "Race"
+          },
+          {
+            "key": "3",
+            "name": "Oxford & Cambridge"
+          },
+          {
+            "key": "4",
+            "name": "Grand National Course"
+          }
         ],
-        "email":"jhondon@gmail.com"
+        "email": "jhondon@gmail.com"
       },
-      "meeting":{"date":{},"place":"Lobby"}
+      "meeting": {
+        "date": "2021-01-14T14:00:00.000Z",
+        "place": "Lobby"
+      }
     },
     {
-      "user":{
-        "firstName":"Bob",
-        "lastName":"Halmor",
-        "avatar":"https://avatar.oxro.io/avatar.svg?name=Bob",
-        "interests":[{"key":"2","name":"Nature"},{"key":"4","name":"Grand National Course"}],
-        "email":"bob@gmail.com"
-      },
-      "meeting":{"date":{},"place":"Lobby 2"}
-    },
-    {
-      "user":{
-        "firstName":"Tom",
-        "lastName":"Sammino",
-        "avatar":"https://avatar.oxro.io/avatar.svg?name=Tom",
-        "interests":[
-          {"key":"2","name":"Nature"},
-          {"key":"4","name":"Grand National Course"},
-          {"key":"4","name":"Photo"}
+      "user": {
+        "id": "2",
+        "first_name": "Bob",
+        "last_name": "Halmor",
+        "avatar": "https://avatar.oxro.io/avatar.svg?name=Bob",
+        "tags": [
+          {
+            "key": "2",
+            "name": "Nature"
+          },
+          {
+            "key": "4",
+            "name": "Grand National Course"
+          }
         ],
-        "email":"tom@gmail.com"
+        "email": "bob@gmail.com"
       },
-      "meeting":{"date":{},"place":"Lobby"}
+      "meeting": {
+        "date": "2021-01-14T15:00:00.000Z",
+        "place": "Lobby 2"
+      }
     },
     {
-      "user":{
-        "firstName":"Bob",
-        "lastName":"Halmor",
-        "avatar":"https://avatar.oxro.io/avatar.svg?name=Ha",
-        "interests":[{"key":"2","name":"Nature"},{"key":"4","name":"Grand National Course"}],
-        "email":"bob@gmail.com"
+      "user": {
+        "id": "3",
+        "first_name": "Tom",
+        "last_name": "Sammino",
+        "avatar": "https://avatar.oxro.io/avatar.svg?name=Tom",
+        "tags": [
+          {
+            "key": "2",
+            "name": "Nature"
+          },
+          {
+            "key": "4",
+            "name": "Grand National Course"
+          },
+          {
+            "key": "4",
+            "name": "Photo"
+          }
+        ],
+        "email": "tom@gmail.com"
       },
-      "meeting":{"date":{},"place":"Lobby 2"}
+      "meeting": {
+        "date": "2021-01-15T12:00:00.000Z",
+        "place": "Lobby"
+      }
     },
     {
-      "user":{
-        "firstName":"Vob",
-        "lastName":"Calmor",
-        "avatar":"https://avatar.oxro.io/avatar.svg?name=Vo",
-        "interests":[{"key":"2","name":"Nature"}],
-        "email":"bob@gmail.com"
+      "user": {
+        "id": "4",
+        "first_name": "Bob",
+        "last_name": "Halmor",
+        "avatar": "https://avatar.oxro.io/avatar.svg?name=Ha",
+        "tags": [
+          {
+            "key": "2",
+            "name": "Nature"
+          },
+          {
+            "key": "4",
+            "name": "Grand National Course"
+          }
+        ],
+        "email": "bob@gmail.com"
       },
-      "meeting":{"date":{},"place":"Lobby 2"}
+      "meeting": {
+        "date": "2021-01-14T18:00:00.000Z",
+        "place": "Lobby 2"
+      }
     },
     {
-      "user":{
-        "firstName":"Koob",
-        "lastName":"To",
-        "avatar":"https://avatar.oxro.io/avatar.svg?name=Koob",
-        "interests":[{"key":"4","name":"Grand National Course"}],
-        "email":"bob@gmail.com"
+      "user": {
+        "id": "5",
+        "first_name": "Vob",
+        "last_name": "Calmor",
+        "avatar": "https://avatar.oxro.io/avatar.svg?name=Vo",
+        "tags": [
+          {
+            "key": "2",
+            "name": "Nature"
+          }
+        ],
+        "email": "bob@gmail.com"
       },
-      "meeting":{"date":{},"place":"Lobby 2"}
+      "meeting": {
+        "date": "2021-01-11T22:50:00.000Z",
+        "place": "Lobby 2"
+      }
+    },
+    {
+      "user": {
+        "id": "6",
+        "first_name": "Koob",
+        "last_name": "To",
+        "avatar": "https://avatar.oxro.io/avatar.svg?name=Koob",
+        "tags": [
+          {
+            "key": "4",
+            "name": "Grand National Course"
+          }
+        ],
+        "email": "bob@gmail.com"
+      },
+      "meeting": {
+        "date": "2021-01-14T21:00:00.000Z",
+        "place": "Lobby 2"
+      }
     }
   ]
 }
